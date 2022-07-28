@@ -1,0 +1,112 @@
+.form {
+    min-width: 45%;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main);
+
+}
+
+.image-div {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 45%;
+    margin-top: 1em;
+}
+
+.contact-image {
+
+    margin: 1em;
+    width: 100%;
+}
+
+
+
+
+.head {
+    font-size: 4em;
+    margin-bottom: .3em;
+}
+
+.inputs {
+    margin: .5em 1em .5em 1em;
+    width: 80%;
+    font-size: 1.5em;
+    background-color: var(--inputs);
+}
+
+.text-input {
+    margin: .5em .5em .5em .5em;
+    width: 80%;
+    max-width: 80%;
+    height: 10em;
+    font-size: 1.5em;
+    background-color: var(--inputs);
+}
+
+.input-btn {
+    padding: .3em;
+    background-color: var(--main);
+    margin-top: .5em;
+    border-radius: .3em;
+    color: var(--font_2);
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.input-btn:active {
+    padding: .3em;
+    background-color: var(--main);
+    margin-top: .5em;
+    border-radius: .3em;
+    color: var(--font_2);
+    font-size: 2.5em;
+    transform: translateY(4px);
+}
+
+.labels {
+    font-size: 2em;
+}
+
+.input-msg {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:900px) {
+    .form {
+        margin: 1em;
+        font-weight: 800;
+    }
+
+    .inputs {
+        font-size: 2em;
+    }
+
+    .image-div {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:900px) {
+
+    .contact {
+
+        margin: .1em;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .image-div {
+        margin-bottom: 1em;
+
+    }
+
+}

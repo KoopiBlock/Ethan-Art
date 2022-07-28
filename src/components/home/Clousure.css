@@ -1,0 +1,115 @@
+.closure-section {
+    display: block;
+    margin: 1em;
+    height: fit-content;
+    overflow: hidden;
+    justify-content: center;
+    color: var(--main);
+}
+
+.closure-title {
+    margin: .5em;
+    font-size: 3em;
+}
+
+.closure-pic {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    padding-bottom: .5em;
+}
+
+.closure-description {
+
+    justify-content: center;
+    margin: auto;
+    width: 95%;
+}
+
+.closure-title {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.closure-name {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: .5em;
+    width: 100%;
+
+    font-size: 2.1em;
+    font-weight: 750;
+}
+
+.closure-text {
+    font-size: 1.5rem;
+}
+
+.closure-talk {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5em;
+
+    width: 50%;
+    border-radius: .2em;
+    background-color: var(--main);
+    color: var(--font_2);
+    text-decoration: none;
+    padding: .5rem;
+
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.closure-talk {
+    transform: translateY(4px);
+}
+
+@media screen and (min-width: 820px) {
+
+    .closure-pic {
+        width: 40%;
+        float: left;
+        margin-right: 2em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+
+    .closure-description {
+        padding-top: 1em;
+    }
+
+    .closure-text {
+        padding: .5em;
+        font-size: 1.8rem;
+    }
+
+    .closure-title {
+        font-size: 3em;
+    }
+
+    .closure-talk {
+        float: right;
+        font-size: 2em;
+        width: 20%;
+        margin-right: 5em;
+
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .closure-pic {
+        width: 30%;
+    }
+
+    .closure-talk {
+        margin-right: 10em;
+    }
+
+}

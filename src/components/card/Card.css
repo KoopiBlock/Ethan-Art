@@ -1,0 +1,24 @@
+.painting {
+    width: 45%;
+    max-width: 45%;
+    margin: .5em;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+
+    .painting {
+        width: 80%;
+        max-width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    .painting {
+        width: 30%;
+        max-width: 30%;
+    }
+
+}

@@ -1,0 +1,122 @@
+.about-section {
+    display: block;
+    margin: 1em;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    color: var(--main);
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 95%;
+    padding-bottom: .5em;
+}
+
+
+.title {
+    margin-bottom: .5em;
+}
+
+.description {
+
+    justify-content: center;
+    margin: auto;
+    margin-top: 1em;
+    width: 95%;
+}
+
+.name {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+
+    padding-bottom: .5em;
+    width: 100%;
+
+    font-size: 2.1em;
+    font-weight: 750;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.talk {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 1.5em;
+
+    width: 50%;
+    border-radius: .2em;
+    background-color: var(--main);
+    color: var(--font_2);
+    text-decoration: none;
+    padding: .5rem;
+
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.talk:active {
+    transform: translateY(4px);
+}
+
+@media screen and (min-width: 900px) {
+
+    .profile-pic {
+        width: 40%;
+        float: left;
+        margin-right: 2em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+
+    .description {
+        padding-top: 1em;
+    }
+
+    .text {
+        padding: .5em;
+        font-size: 1.8rem;
+    }
+
+    .title {
+        margin-bottom: .5em;
+        font-size: 3em;
+    }
+
+    .talk {
+        float: right;
+        font-size: 2em;
+        width: 20%;
+        margin-right: 5em;
+
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .profile-pic {
+        width: 30%;
+    }
+
+    .talk {
+        margin-right: 10em;
+    }
+
+}
+
+@media screen and (min-height: 800px) {
+
+
+    .about-section {
+        margin-bottom: 16em;
+    }
+}
