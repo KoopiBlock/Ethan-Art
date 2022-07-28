@@ -9,16 +9,16 @@ function Featured() {
                 <h1 className='featured-title'>Featured Drawings</h1>
                 <div className='featured-cards'>
                     <div className='featured-div'>
-                        <img className='featured-image' src='/images/flowers_colors.jpg'></img>
+                        <img className='featured-image' src='/images/flowers_colors.jpg' alt='1'></img>
                     </div>
                     <div className='featured-div'>
-                        <img className='featured-image' src='/images/cute.jpg'></img>
+                        <img className='featured-image' src='/images/cute.jpg' alt='1'></img>
                     </div>
                     <div className='featured-div'>
-                        <img className='featured-image' src='/images/flowers.jpg'></img>
+                        <img className='featured-image' src='/images/flowers.jpg' alt='1'></img>
                     </div>
                     <div className='featured-div'>
-                        <img className='featured-image' src='/images/flowers_red.jpg'></img>
+                        <img className='featured-image' src='/images/flowers_red.jpg' alt='1'></img>
                     </div>
 
                 </div>

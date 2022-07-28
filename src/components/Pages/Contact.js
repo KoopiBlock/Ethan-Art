@@ -6,7 +6,7 @@ function Contact() {
         <div className='contact'>
             <Form />
             <div className='image-div'>
-                <img src='/images/ethan-1.jpg' className='contact-image'></img>
+                <img src='/images/ethan-1.jpg' className='contact-image' alt='1'></img>
             </div>
         </div>
     )

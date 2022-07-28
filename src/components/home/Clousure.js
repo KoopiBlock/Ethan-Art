@@ -6,7 +6,7 @@ function Clousure() {
     return (
         <div className='closure-section'>
             <h1 className='closure-title'>About me</h1>
-            <img className='closure-pic ' alt='u' src='/images/ethan-2.jpg'></img>
+            <img className='closure-pic ' alt='u' src='/images/ethan-2.jpg' ></img>
             <div className='closure-description'>
 
                 <p className='closure-text'>
