@@ -1,6 +1,6 @@
 
 
-export default [
+const data = [
     {
         id: 1,
         image: 'birds.jpg',
@@ -103,3 +103,5 @@ export default [
     },
 
 ]
+
+export default data

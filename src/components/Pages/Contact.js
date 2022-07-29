@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from '../contact/Form'
+import '../contact/contact.css'
 
 function Contact() {
     return (
