@@ -11,16 +11,16 @@ function Footer() {
     return (
         <footer className='foot'>
             <div className='foot-div'>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                <a href="https://instagram.com" rel="noreferrer">
                     <FaInstagramSquare className='logo' />
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noreferrer">
+                <a href="https://youtube.com" rel="noreferrer">
                     <FaYoutubeSquare className='logo' />
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                <a href="https://facebook.com" rel="noreferrer">
                     <FaFacebookSquare className='logo' />
                 </a>
-                <a href="https://artstation.com" target="_blank" rel="noreferrer">
+                <a href="https://artstation.com" rel="noreferrer">
                     <FaArtstation className='logo' />
                 </a>
 
