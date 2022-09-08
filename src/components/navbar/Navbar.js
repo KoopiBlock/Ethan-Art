@@ -21,22 +21,22 @@ function Navbar() {
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'} onClick={handleClick}>
                         <li className='nav-item'>
-                            <NavLink exact to="/" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink exact to="/" activeClassName="active" className="nav-links" onClick={handleClick}>
                                 Home
                             </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink exact to="/about" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink exact to="/about" activeClassName="active" className="nav-links" onClick={handleClick}>
                                 About
                             </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink exact to="/contact" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink exact to="/contact" activeClassName="active" className="nav-links" onClick={handleClick}>
                                 Contact
                             </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink exact to="/gallery" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink exact to="/gallery" activeClassName="active" className="nav-links" onClick={handleClick}>
                                 Gallery
                             </NavLink>
                         </li>
