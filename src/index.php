@@ -1,1 +1,1 @@
-<?php echo json_encode("hello world what's good"); ?>
+<?php start_session(); echo json_encode("hello world what's good"); ?>
