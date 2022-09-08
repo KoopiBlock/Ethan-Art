@@ -11,9 +11,20 @@ async function getDataFromServer(){
   return res;
 }
 
+
 getDataFromServer().then(function(result) {
-  console.log(result) // "Some User token"
+  console.log("Output:");
+  console.log(result);
 });
+
+/* getDataFromServer()
+  .then(response => response.text())
+  .then(text => {
+    console.log(text);
+  }); */
+
+  /* getDataFromServer()
+  .then(response => console.log(response)); */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

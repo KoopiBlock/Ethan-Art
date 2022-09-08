@@ -23,7 +23,7 @@ function Featured() {
 
                 </div>
                 <div className='gallery-link-div'>
-                    <NavLink exact to="/Gallery" className="gallery-link"> Go to Gallery</NavLink>
+                    <NavLink to="/Gallery" className="gallery-link"> Go to Gallery</NavLink>
                 </div>
             </div>
 

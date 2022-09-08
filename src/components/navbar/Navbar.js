@@ -14,29 +14,29 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='nav-container'>
-                    <NavLink exact to="/" activeClassName="active" className="nav-logo">
+                    <NavLink to="/" activeclassname="active" className="nav-logo">
                         ETHAN-ART
                         <i className='brand-icon'> <FaPaintBrush /> </i>
                     </NavLink>
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu'} onClick={handleClick}>
                         <li className='nav-item'>
-                            <NavLink exact to="/" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink to="/" activeclassname="active" className="nav-links" onClick={handleClick}>
                                 Home
                             </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink exact to="/about" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink to="/about" activeclassname="active" className="nav-links" onClick={handleClick}>
                                 About
                             </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink exact to="/contact" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink to="/contact" activeclassname="active" className="nav-links" onClick={handleClick}>
                                 Contact
                             </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink exact to="/gallery" activeclassname="active" className="nav-links" onClick={handleClick}>
+                            <NavLink to="/gallery" activeclassname="active" className="nav-links" onClick={handleClick}>
                                 Gallery
                             </NavLink>
                         </li>

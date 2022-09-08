@@ -12,7 +12,7 @@ function Profile() {
                 <p className='text'>
                     'hi! my name is ethan and welcome to my website, here you browse my gallery and also contact me for comissions. lets talk about our next project!',
                 </p>
-                <NavLink exact to="/Contact" className="talk"> Lets talk</NavLink>
+                <NavLink to="/Contact" className="talk"> Lets talk</NavLink>
             </div>
 
         </div>

@@ -22,10 +22,10 @@ export const getData = async () => {
       alert('error')
     }) */
     
-    let data = await fetch("./index.php", {
+    let data = await fetch("http://localhost:8000/core/pages/index.php", {
         method: 'GET',
         headers: {
-          'Accept': 'application/json',
+          'Content-Type': 'application/json'
         },
       }).then (function (response) {return response.json()})
         .then(function (json) { console.log(json); })
